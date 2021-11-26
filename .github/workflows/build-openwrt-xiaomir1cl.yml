@@ -22,8 +22,8 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: 09bfdd0f63a39ace773dfe9dbb0351ed43588582
-  FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: xiaomi-r1cl.config
+  FEEDS_CONF: xiaomi-r1cl-config/feeds.conf.default
+  CONFIG_FILE: xiaomi-r1cl-config/xiaomi-r1cl.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: true
