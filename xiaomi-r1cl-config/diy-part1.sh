@@ -16,4 +16,4 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-git checkout adc5d8f12d309c2d86170db771dbd87d7d5c9168 #此版本为R21.7.1.100,目前最新版会无故重启
+git checkout 3403deeaf8ffe3bb255230dd901336adf35e48f3 #此版本为R21.6.1,目前最新版5.x kernel会无故重启
