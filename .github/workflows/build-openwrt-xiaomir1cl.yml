@@ -63,6 +63,8 @@ jobs:
 
     - name: Load custom feeds
       run: |
+#此版本为R21.6.1,目前最新版5.x kernel会无故重启
+        git checkout 3403deeaf8ffe3bb255230dd901336adf35e48f3 
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
         chmod +x $DIY_P1_SH
         cd openwrt
